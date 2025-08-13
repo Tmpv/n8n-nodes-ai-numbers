@@ -12,7 +12,7 @@ import crypto from 'crypto';
 export class AINumbersApi implements ICredentialType {
   name = 'AINumbersApi';
 
-  displayName = 'AI Numbers credentials';
+  displayName = 'Ai Numbers Credentials API';
   documentationUrl = 'https://developer.ainumber.com/?shell#authentication';
 
   httpRequestNode = {
@@ -36,7 +36,7 @@ export class AINumbersApi implements ICredentialType {
       displayName: 'API Key',
       name: 'apiKey',
       type: 'string',
-      typeOptions: { password: false },
+      typeOptions: { password: true },
       required: true,
       default: '',
     },

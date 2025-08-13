@@ -1,0 +1,20 @@
+{
+  "node": "n8n-nodes-base.AINumbers",
+  "nodeVersion": "1.0",
+  "codexVersion": "1.0",
+  "categories": [
+    "Miscellaneous"
+  ],
+  "resources": {
+    "credentialDocumentation": [
+      {
+        "url": "https://developer.ainumber.com/?shell#authentication"
+      }
+    ],
+    "primaryDocumentation": [
+      {
+        "url": "https://developer.ainumber.com/?shell#introduction"
+      }
+    ]
+  }
+}

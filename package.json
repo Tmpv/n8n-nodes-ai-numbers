@@ -1,5 +1,5 @@
 {
-  "name": "@Tmpv/n8n-nodes-ai-numbers",
+  "name": "@toma-ct/n8n-nodes-ai-numbers",
   "description": "N8N node for communication with AI Numbers API",
   "keywords": [
     "n8n-community-node-package"
@@ -20,10 +20,9 @@
     "preinstall": "npx only-allow pnpm",
     "build": "tsc && gulp build:icons",
     "dev": "tsc --watch",
-    "format": "prettier nodes credentials --write",
-    "lint": "eslint nodes credentials package.json",
-    "lintfix": "eslint nodes credentials package.json --fix",
-    "prepublishOnly": "pnpm build && pnpm lint -c .eslintrc.prepublish.js nodes credentials package.json"
+    "format": "prettier credentials --write",
+    "lint": "eslint credentials package.json",
+    "lintfix": "eslint credentials package.json --fix"
   },
   "files": [
     "dist"
@@ -32,6 +31,9 @@
     "n8nNodesApiVersion": 1,
     "credentials": [
       "dist/credentials/AINumbersApi.credentials.js"
+    ],
+    "nodes": [
+      "dist/nodes/AINumbers/AINumbers.node.js"
     ]
   },
   "devDependencies": {
