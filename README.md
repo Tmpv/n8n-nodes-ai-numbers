@@ -1,4 +1,4 @@
-# n8n-nodes-currencytransfer
+# n8n-nodes-ai-numbers
 
 This is an n8n community node. It lets authenticate with [AI Numbers](https://developer.ainumber.com/?shell#introduction) and use it in the HTTP node.
 
