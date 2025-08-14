@@ -3,7 +3,7 @@ import { INodeType, INodeTypeDescription } from 'n8n-workflow';
 export class AINumbers implements INodeType {
   description: INodeTypeDescription = {
     displayName: 'AI Numbers',
-    name: 'aiNumbers',
+    name: 'AINumbers',
     icon: 'file:AINumbers.svg',
     description: 'Sending What\'s app messages',
     group: [],
